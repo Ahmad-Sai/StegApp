@@ -1,7 +1,13 @@
-# Steganography-Tkinter-App
+# StegApp
 
-First App hides the message you enter in the image you choose
-  - NOTE: Only works on images that don't have an invisible background
+A python steganography application using 2 least significant bits.
 
-Second App retrieves the message in the image you choose
-  - NOTE: If there is no messsage in the image, blank textbox will appear
+- hideSecret hides a user input string into the selected image
+- getSecret reads hidden strings placed by hideSecret
+
+hideSecret and getSecret are wrapped into TkInter applets. 
+
+Dependiencies:
+
+- Pillow
+- numPy
