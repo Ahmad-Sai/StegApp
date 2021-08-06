@@ -7,7 +7,7 @@ from PIL import Image, ImageTk
 # Intialiazes the tkinter application
 window = Tk()
 window.resizable(width=False, height=False)
-window.title('Simple Steganography App')
+window.title('StegApp hideSecret')
 
 class App():
     def __init__(self, master):
