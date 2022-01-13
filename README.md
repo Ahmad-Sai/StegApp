@@ -12,3 +12,7 @@ Dependencies:
   - Pillow
   - NumPy
   - Tkinter
+
+Display Menu Options:
+
+![image](https://user-images.githubusercontent.com/85080576/149425451-7f3585e7-ac75-40fe-a918-329524272d2c.png)
