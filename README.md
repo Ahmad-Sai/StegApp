@@ -1,10 +1,10 @@
 # StegApp
 
-What is Steganography?
+**What is Steganography?**
 
 Steganography is a method of hiding plain messages within an image. The point of steganography is to be able to send an image to someone with a hidden message encoded in the bits. Any one that looks at the image will preceive it as a regular image, but only the person who receives it knows that there is a hidden message embedded with in.
 
-A Python Steganography GUI application that uses 2 least significant bits to hide messages in images.
+This is a Python Steganography GUI application that uses the 2 least significant bits of a pixel to hide plain text messages within images.
 
   - hideSecret hides a user input string into the selected image
   - getSecret reads hidden strings placed by hideSecret
