@@ -9,6 +9,7 @@ window = Tk()
 window.resizable(width=False, height=False)
 window.title('StegApp hideSecret')
 
+
 class App():
     def __init__(self, master):
         """
@@ -26,20 +27,20 @@ class App():
         self.enter_message = ''
         self.popup_window = None
         self.popup_window2 = None
-           
+
         """
         Frames and buttons used in the application
         """
         self.frame1 = Frame(master)
         self.frame1.grid(row=0, column=0)
-       
+
         self.frame2 = Frame(master)
         self.frame2.grid(row=1, column=0)
 
         Label(self.frame2, text=f'Select Image').grid(row=0, column=0)
         browse_button = Button(master, text='Browse', command=self.browse)
         browse_button.grid(row=1, column=1)
-        
+
         self.entry = Entry(master, width=80)
         self.entry.grid(row=2, column=0)
 
@@ -54,7 +55,7 @@ class App():
 
         save_button = Button(master, text='Save', command=self.save)
         save_button.grid(row=4, column=1)
-   
+
         self.instructions(self.frame1)
 
     def close(self, *args):
@@ -83,7 +84,7 @@ class App():
 
         try:
             self.path = filedialog.askopenfilename(initialdir='/', title='Select image:',
-                                              filetype=(('png', '*.png'), ('jpg', '*.jpg'), ('jpeg', '*.jpeg')))
+                                                   filetype=(('png', '*.png'), ('jpg', '*.jpg'), ('jpeg', '*.jpeg')))
             self.img = PIL.Image.open(self.path)
             self.width, self.height = self.img.size
             self.img_as_np_array = np.asarray(self.img, dtype=np.dtype('B'))
@@ -108,12 +109,12 @@ class App():
 
     def submit(self):
         """
-        Submit allows the user to submit a message. 
+        Submit allows the user to submit a message.
         Message is then turned into bits and steganography is performed on image
         """
         self.close(self.popup_window, self.popup_window2)
         self.clearWidgets(self.frame4)
-       
+
         if self.entry.get() != '' and self.img:
             self.clearWidgets(self.frame3)
 
@@ -135,7 +136,7 @@ class App():
             rand_int2[0:length] = self.message_list
             self.message_list = np.reshape(rand_int2, (self.height, self.width, 3))
             self.entry.delete(0, "end")
-       
+
         if self.enter_message != '':
             last_lsb = self.img_as_np_array % 2
             second_last_lsb = (self.img_as_np_array // 2) % 2
@@ -147,7 +148,7 @@ class App():
             self.image_window()
         else:
             Label(self.frame4, text='Submit Image').grid(row=4, column=0)
-           
+
     def image_window(self):
         """
         A popup window that shows the message and the image that is produced
@@ -157,14 +158,14 @@ class App():
             self.popup_window.resizable(width=False, height=False)
             self.popup_window.title('Images')
 
-
             text_box = Text(self.popup_window)
             text_box.insert(INSERT, self.enter_message)
             text_box.config(state=DISABLED)
             text_box.grid(row=1, column=0)
             Label(self.popup_window, text='Your Message').grid(row=0, column=0)
 
-            resized_im2 = self.new_image.resize((round(self.new_image.size[0] * 0.5), round(self.new_image.size[1] * 0.5)))
+            resized_im2 = self.new_image.resize(
+                (round(self.new_image.size[0] * 0.5), round(self.new_image.size[1] * 0.5)))
             tk_img2 = ImageTk.PhotoImage(resized_im2)
             image2 = Label(self.popup_window, image=tk_img2)
             image2.image = tk_img2
@@ -181,21 +182,22 @@ class App():
         Label(frame, text="Instructions").grid(row=1, column=0, columnspan=2)
         Label(frame, text="1. Choose Image that you want to hide message in").grid(row=2, column=0, columnspan=2)
         Label(frame, text="2. Enter Message in Text Box and Submit").grid(row=3, column=0, columnspan=2)
-        Label(frame, text="3. Press Create and Show Button to see new image").grid(row=4, column=0, columnspan=2)
+        Label(frame, text="3. Press Submit Message to see new image").grid(row=4, column=0, columnspan=2)
         Label(frame, text="4. (optional) Save").grid(row=5, column=0, columnspan=2)
         Label(frame, text="----------------------------------------------").grid(row=6, column=0, columnspan=2)
-       
+
     def save(self):
         """
         Gives the user the option to save the new image
         """
         self.clearWidgets(self.frame4)
         if self.new_image:
-            newpath = self.path[:-4] + ' msg.png'
+            newpath = self.path[:-4] + '_msg.jpg'
             self.new_image.save(newpath)
             Label(self.frame4, text=f'Saved at {newpath}').grid(row=4, column=0)
         else:
             Label(self.frame4, text='Submit Image and message').grid(row=4, column=0)
+
 
 app1 = App(window)
 window.mainloop()
