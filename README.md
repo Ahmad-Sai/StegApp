@@ -32,5 +32,5 @@ _If you choose to save, then your image will be save as image_msg.jpg_
 
 Image Comparison of before and after the message was embedded in the image:
 
-<img src=https://user-images.githubusercontent.com/85080576/149428273-d90cfbe7-e99b-4466-83af-d7792db3cf6e.png" width="600" height="300" />
+<img src="https://user-images.githubusercontent.com/85080576/149428273-d90cfbe7-e99b-4466-83af-d7792db3cf6e.png" width="600" height="300" />
 
