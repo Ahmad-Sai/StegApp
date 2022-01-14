@@ -17,7 +17,7 @@ Dependencies:
   - NumPy
   - Tkinter
 
-To hide your own messages in an image, run the hidSecret.py, and follow the instructions display in the application. Make sure that your image is a .jpg or .jpeg
+To hide your own messages in an image, run the hidSecret.py, and follow the instructions display in the application. _**Make sure that your image is a .jpg or .jpeg only.**_
 
 **_Hiding Text Example_**
 
