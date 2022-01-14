@@ -100,8 +100,7 @@ class App():
 
             stacked_array = np.stack((second_last_lsb, last_lsb), axis=3)
             flat_array = np.ndarray.flatten(stacked_array)
-            bytes_array = flat_array.reshape((self.width * self.
-                                              height * 2 * 3 // 8, 8))
+            bytes_array = flat_array.reshape(((self.width * self.height * 2 * 3) // 8, 8))
             integer_array = np.packbits(bytes_array, bitorder='big')
             entire_img = ''
             self.message = ''
@@ -178,7 +177,7 @@ class App():
         """
         if self.message != '':
             self.clearWidgets(self.frame4)
-            file_name = self.path[:-4] + ' message.txt'
+            file_name = self.path[:-4] + '_message.txt'
             with open(file_name, 'w') as f:
                 f.write(self.message)
             Label(self.frame4, text=f'Message saved at {file_name}').grid(row=2, column=0)
