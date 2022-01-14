@@ -19,6 +19,8 @@ Dependencies:
 
 To hide your own messages in an image, run the hidSecret.py, and follow the instructions display in the application. Make sure that your image is a .jpg or .jpeg
 
+******Hidding text******
+
 Display Menu Options:
 
 <img src="https://user-images.githubusercontent.com/85080576/149425451-7f3585e7-ac75-40fe-a918-329524272d2c.png" width="600" height="250" />
@@ -32,4 +34,8 @@ _If you choose to save, then your image will be save as image_msg.jpg_
 Image Comparison of before and after the message was embedded in the image:
 
 <img src="https://user-images.githubusercontent.com/85080576/149428273-d90cfbe7-e99b-4466-83af-d7792db3cf6e.png" width="600" height="250" />
+
+
+
+
 
