@@ -19,7 +19,7 @@ Dependencies:
 
 To hide your own messages in an image, run the hidSecret.py, and follow the instructions display in the application. Make sure that your image is a .jpg or .jpeg
 
-******Hidding text******
+**_Hiding Text Example_**
 
 Display Menu Options:
 
@@ -37,5 +37,6 @@ Image Comparison of before and after the message was embedded in the image:
 
 
 
+**_Retreiving Text Example_**
 
-
+![image](https://user-images.githubusercontent.com/85080576/149437904-2cc15db8-0c9f-4b45-a687-8b5e10e6dca8.png)
