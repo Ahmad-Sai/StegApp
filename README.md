@@ -27,3 +27,8 @@ After embedding a message in an image:
 
 ![image](https://user-images.githubusercontent.com/85080576/149426114-27921ff4-227a-4fe9-9ac2-ce07d78d1989.png)
 
+_If you choose to save, then your image will be save as image_msg.jpg_
+
+Image Comparison of before and after the message was embedded in the image:
+
+![image](https://user-images.githubusercontent.com/85080576/149428273-d90cfbe7-e99b-4466-83af-d7792db3cf6e.png)
