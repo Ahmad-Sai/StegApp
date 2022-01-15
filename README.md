@@ -48,3 +48,35 @@ Message and image after extraction:
 <img src="https://user-images.githubusercontent.com/85080576/149426114-27921ff4-227a-4fe9-9ac2-ce07d78d1989.png" width="600" height="300" />
 
 _If you choose to save the message, it will save it as a text file, e.g. imagename_message.txt_
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+![image](https://user-images.githubusercontent.com/85080576/149641833-ef830912-04fe-4f1e-b4d7-8d04615925c3.png)
+
+![image](https://user-images.githubusercontent.com/85080576/149641850-bf1e2614-6aa4-4ee3-ba77-018ed0b00d3e.png)
+
+![image](https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png)
+
+![image](https://user-images.githubusercontent.com/85080576/149641878-5079262b-ee45-4ca9-ab49-8b115b973ad5.png)
+  
+
