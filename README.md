@@ -19,81 +19,31 @@ Dependencies:
 
 To hide your own messages in an image, run the hidSecret.py, and follow the instructions displayed in the application. _**Make sure that the image you use is a .jpg or .jpeg only.**_
 
-**_Hiding Text Example_**
 
-Display Menu Options:
+**hideSecret.py example**
 
-<img src="https://user-images.githubusercontent.com/85080576/149425451-7f3585e7-ac75-40fe-a918-329524272d2c.png" width="600" height="250" />
-
-After embedding a message in an image:
-
-<img src="https://user-images.githubusercontent.com/85080576/149426114-27921ff4-227a-4fe9-9ac2-ce07d78d1989.png" width="600" height="300" />
-
-_If you choose to save the image, then your image will be save as image_msg.jpg_
-
-Image Comparison of before and after the message was embedded in the image:
-
-<img src="https://user-images.githubusercontent.com/85080576/149428273-d90cfbe7-e99b-4466-83af-d7792db3cf6e.png" width="600" height="250" />
-
-
-
-**_Retreiving Text Example_**
-
-Display Menu Options:
-
-![image](https://user-images.githubusercontent.com/85080576/149437904-2cc15db8-0c9f-4b45-a687-8b5e10e6dca8.png)
-
-Message and image after extraction:
-
-<img src="https://user-images.githubusercontent.com/85080576/149426114-27921ff4-227a-4fe9-9ac2-ce07d78d1989.png" width="600" height="300" />
-
-_If you choose to save the message, it will save it as a text file, e.g. imagename_message.txt_
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-Example of hideSecret.py running
-
-_Instructions Window:_
+_Instructions Window_
 
 ![image](https://user-images.githubusercontent.com/85080576/149641833-ef830912-04fe-4f1e-b4d7-8d04615925c3.png)
 
-_Options:_
+_Options_
 
 ![image](https://user-images.githubusercontent.com/85080576/149641850-bf1e2614-6aa4-4ee3-ba77-018ed0b00d3e.png)
 
 
-_The message that will be hidden:_
+_The message that will be hidden_
 
 <img src="https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png" width="600" height="300" />
 
 
-_Comparison of the images. Before and after._
+_Comparison of the images_
 
 ![image](https://user-images.githubusercontent.com/85080576/149641878-5079262b-ee45-4ca9-ab49-8b115b973ad5.png)
   
   
-  _Example if getSecret.py running:_
+**getSecret.py example**
   
-  _Options:_
+  _Options_
   
 ![image](https://user-images.githubusercontent.com/85080576/149641902-d7af46cf-fde5-43a2-a824-ed26aefd249f.png)
 
@@ -104,3 +54,5 @@ _Image with hidden Message_
 _Extracted message_
 
 <img src="https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png" width="600" height="300" />
+
+_If you choose to save the message, it will save it as a text file, e.g. imagename_message.txt_
