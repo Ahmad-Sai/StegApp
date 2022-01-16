@@ -72,18 +72,18 @@ _If you choose to save the message, it will save it as a text file, e.g. imagena
 
 Example of hideSecret.py running
 
-_Options:_
+_Instructions Window:_
 
 ![image](https://user-images.githubusercontent.com/85080576/149641833-ef830912-04fe-4f1e-b4d7-8d04615925c3.png)
 
-_Instructions Window:_
+_Options:_
 
 ![image](https://user-images.githubusercontent.com/85080576/149641850-bf1e2614-6aa4-4ee3-ba77-018ed0b00d3e.png)
 
 
 _The message that will be hidden:_
 
-![image](https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png)_
+<img src="https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png" width="600" height="300" />
 
 
 _Comparison of the images. Before and after._
@@ -94,6 +94,7 @@ _Comparison of the images. Before and after._
   _Example if getSecret.py running:_
   
   _Options:_
+  
 ![image](https://user-images.githubusercontent.com/85080576/149641902-d7af46cf-fde5-43a2-a824-ed26aefd249f.png)
 
 _Image with hidden Message_
@@ -102,4 +103,4 @@ _Image with hidden Message_
 
 _Extracted message_
 
-![image](https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png)
+<img src="https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png" width="600" height="300" />
