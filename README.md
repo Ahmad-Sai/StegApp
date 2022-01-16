@@ -72,11 +72,21 @@ _If you choose to save the message, it will save it as a text file, e.g. imagena
 
 Example of hideSecret.py running
 
+_Menu options:_
+
 ![image](https://user-images.githubusercontent.com/85080576/149641833-ef830912-04fe-4f1e-b4d7-8d04615925c3.png)
+
+_Instructions Window:_
 
 ![image](https://user-images.githubusercontent.com/85080576/149641850-bf1e2614-6aa4-4ee3-ba77-018ed0b00d3e.png)
 
-![image](https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png)
+
+_The message that will be hidden:_
+
+![image](https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png)_
+
+
+_Comparison of the images. Before and after._
 
 ![image](https://user-images.githubusercontent.com/85080576/149641878-5079262b-ee45-4ca9-ab49-8b115b973ad5.png)
   
