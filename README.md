@@ -70,6 +70,7 @@ _If you choose to save the message, it will save it as a text file, e.g. imagena
 
 
 
+Example of hideSecret.py running
 
 ![image](https://user-images.githubusercontent.com/85080576/149641833-ef830912-04fe-4f1e-b4d7-8d04615925c3.png)
 
@@ -79,5 +80,12 @@ _If you choose to save the message, it will save it as a text file, e.g. imagena
 
 ![image](https://user-images.githubusercontent.com/85080576/149641878-5079262b-ee45-4ca9-ab49-8b115b973ad5.png)
   
+  
+  Example if getSecret.py running:
+  
 
 ![image](https://user-images.githubusercontent.com/85080576/149641902-d7af46cf-fde5-43a2-a824-ed26aefd249f.png)
+
+![image](https://user-images.githubusercontent.com/85080576/149641949-fd21548f-d81c-4958-a78f-642821c60a84.png)
+
+![image](https://user-images.githubusercontent.com/85080576/149641869-2de28f25-639f-45d0-b717-c2ca20bdb8ed.png)
